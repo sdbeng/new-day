@@ -1,4 +1,4 @@
-#include <assert>
+#include <cassert>
 #include <iostream>
 using std::cout;
 
@@ -7,7 +7,7 @@ struct Date {
     int day;
     int month;
     int year;
-}
+};
 
 int main(){
     Date date;
