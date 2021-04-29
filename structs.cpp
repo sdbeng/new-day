@@ -12,12 +12,14 @@ struct Date {
 int main(){
     Date date;
     //initialize date to August 29, 1981
-
+    date.day = 29;
+    date.month = 8;
+    date.year = 1981;
     //test
     assert(date.day == 29);
     assert(date.month == 8);
     assert(date.year == 1981);
 
     //print the data in the structure
-    cout << date.day << "/ " << date.month << "/ " << date.year << "\n";
+    cout << date.day << "/" << date.month << "/" << date.year << "\n";
 }
