@@ -33,4 +33,6 @@ class Deck{
 }
 
 const deck2 = new Deck()
+console.log(deck2)
 console.log(deck2.createDeck())
+console.log(deck2.shuffle())
