@@ -31,3 +31,12 @@ struct Date{
 };
 ```
 The code above creates a structure containing 3 "member variables" of type `int`:`day`, `month` and `year`.
+If you then create an instance of this structure, you can initialize these member variables:
+```cpp
+//Create an instance of the Date strcture
+Date date;
+//initialize the attributes of Date
+date.day = 29;
+date.month = 04;
+date.year = 2021;
+```
