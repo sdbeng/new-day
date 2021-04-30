@@ -46,5 +46,7 @@ struct Date {
     int year{0};
 };
 ```
+## Avoid Trivial Getters and Setters
+Sometimes accessors are not neccesary, or even advisable. The C++ Core Guidelines recommend, "A trivial getter or setter adds no semantic value: the data item could just as well be public."
 
 
