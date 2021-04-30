@@ -27,5 +27,24 @@ struct Date {
     void Day(int day) {
         this.day = day;//setter
     }
-}
+    int Month(){
+        return month;//getter
+    }
+    void Month(int month){
+        this.month = month;//setter
+    }
+    int Year(){
+        return year;//getter
+    }
+    void Year(int year){
+        this.year = year;//setter
+    }
+
+    private:
+    int day{1};
+    int month{1};
+    int year{0};
+};
+```
+
 
